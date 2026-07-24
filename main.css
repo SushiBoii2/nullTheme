@@ -642,3 +642,38 @@ body {
         border-color: var(--checkbox-border-selected-default);
     }
 }
+
+...
+    .radioGroupOption__64e61[data-selected='true'] .radioIndicator__64e61 {
+        background-color: var(--checkbox-background-selected-default);
+        background-size: 8px 8px;
+        border-color: var(--checkbox-border-selected-default);
+    }
+}
+
+/* ===========================================
+   Kyami Hub Integration
+   =========================================== */
+
+:root {
+    --kyami-width: 420px;
+    --kyami-sidebar-width: 220px;
+    --kyami-radius: var(--radius-sm, 0px);
+
+    --kyami-bg: var(--bg-4);
+    --kyami-bg-secondary: var(--bg-3);
+
+    --kyami-text: var(--text-3);
+    --kyami-text-heading: var(--text-2);
+    --kyami-text-muted: var(--text-5);
+
+    --kyami-hover: var(--hover);
+    --kyami-active: var(--active);
+
+    --kyami-border: var(--border);
+    --kyami-border-hover: var(--border-hover);
+
+    --kyami-transition: var(--list-item-transition);
+
+    --kyami-font: var(--font);
+}
